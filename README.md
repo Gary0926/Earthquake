@@ -3,7 +3,11 @@
 ## 爬蟲
 - 使用中央氣象署地震測報中心網頁，自動化爬取地震相關資料。
 - 套件：BeautifulSoup、Selenium。
+
+![地震閱覽](photo/測震中心1.gif)
+![地震詳細資料](photo/測震中心2.gif)
 ## 動態地圖
 - 繪製國界與標記地震資料。
 - 套件：folium。
+  
 ![photo2](photo/台灣地圖2.gif)
