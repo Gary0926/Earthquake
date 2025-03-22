@@ -1,7 +1,6 @@
 # 地震資料爬蟲與地圖標記系統
 自動化爬取中央氣象署地震測報中心的地震資料，並將結果標記於互動地圖上。
-## 網站來源
-[中央氣象署地震測報中心](https://scweb.cwa.gov.tw/zh-tw/earthquake/data/)
+## 網站來源：[中央氣象署地震測報中心](https://scweb.cwa.gov.tw/zh-tw/earthquake/data/)
 
 ![地震閱覽](photo/測震中心1.png)
 ![地震詳細資料](photo/測震中心2.png)
