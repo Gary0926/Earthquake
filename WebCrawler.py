@@ -21,7 +21,7 @@ options.add_argument("--headless")               # 隱藏瀏覽器
 options.add_argument("--disable-notifications")  # 關閉通知
 chrome = webdriver.Chrome(service=Service(ChromeDriverManager().install()), options=options)
 
-for year in range(2024,2025):   
+for year in range(2023,2024):   
     for month in range(1,13):        
         print(f"{year} 年 {month} 月")
         
@@ -90,4 +90,4 @@ for year in range(2024,2025):
             quake['深度'].append(depth)
 
 df_quake = pd.DataFrame(quake)
-df_quake.to_csv('地震(2024).csv',encoding='utf-8-sig',index=False)
+df_quake.to_csv('地震(2023).csv',encoding='utf-8-sig',index=False)
